@@ -1,0 +1,53 @@
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: #ffeead;
+  }
+  
+  html, body {
+    background-color: #ffeead;
+    margin: 10px;
+  }
+  
+  .container > div:nth-child(1) {
+    background-color: #96ceb4;	
+  }
+  
+  .container > div:nth-child(2) {
+    background-color: #ff6f69;
+  }
+  
+  .container > div:nth-child(3) {
+    background-color: #88d8b0;
+  }
+
+  .portfolio {
+    flex: 1;
+  }
+
+  .profile-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+     border: 10px solid #FEDE00;
+  }
+
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: #f9f7f7;
+    margin:30px;
+    font-size:20px;
+  }
+
+  .body {
+    padding: 40px;
+    text-align: center;
+    background: #f9f7f7;
+    margin:30px;
+    font-size:13px;
+  }
